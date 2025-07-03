@@ -1,0 +1,17 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
+
+# Env vars
+.env
+
+# Node (якщо колись додаси npm)
+node_modules/
+dist/
