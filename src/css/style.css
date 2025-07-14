@@ -79,6 +79,12 @@ img {
     text-decoration: none;
 }
 
+.main-nav li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 .logo-nav {
     display: flex;
     gap: 10px;
@@ -104,7 +110,8 @@ img {
     border: 1px solid #000;
     padding: 8px 18px;
     border-radius: 24px;
-    font-weight: 500;
+    font-weight: 400;
+    background-color: #fff;
 }
 
 .promo {
@@ -162,29 +169,6 @@ h2 {
     max-width: 585px;
 }
 
-/* .warranty {
-    padding-top: 211px;
-} */
-
-/* .content-wrapper {
-    display: flex;
-    align-items: center;
-} */
-
-/* .warranty-img {
-    position: absolute;
-    top: -106px;
-    left: 0; 
-    object-fit: cover;
-    max-width: 585px;
-}
-
-.warr-text {
-    padding-left: 683px;
-    width: 480px;
-    height: 268px;
-} */
-
 .warranty {
     padding-top: 105px;
 }
@@ -204,7 +188,7 @@ h2 {
     object-fit: cover;
 }
 
-.warr-text {
+.warranty-text {
     flex: 1 1 50%;
     max-width: 480px;
     padding-top: 100px;
@@ -430,22 +414,22 @@ h2 {
     flex: 1 1 50%;
     max-width: 475px;
     padding-top: 100px;
+}
 
-    h3 {
-        color: #222;
-        font-size: 36px;
-        font-weight: 400;
-        line-height: 43.2px;
-        margin-bottom: 4px;
-    }
+.account-many-text h3 {
+    color: #222;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    margin-bottom: 4px;
+}
 
-    p {
-        margin-top: 15px;
-        color: #222;
-        font-size: 18px;
-        font-style: normal;
-        line-height: 25.92px;
-    }
+.account-many-text p {
+    margin-top: 15px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 25.92px;
 }
 
 
@@ -473,22 +457,22 @@ h2 {
     flex: 1 1 50%;
     max-width: 480px;
     padding-top: 80px;
+}
 
-    h3 {
-        color: #222;
-        font-size: 36px;
-        font-weight: 400;
-        line-height: 43.2px;
-        margin-bottom: 10px;
-    }
+.quick-text h3 {
+    color: #222;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    margin-bottom: 10px;
+}
 
-    p {
-        margin-top: 12px;
-        color: #222;
-        font-size: 18px;
-        font-style: normal;
-        line-height: 25.92px;
-    }
+.quick-text p {
+    margin-top: 12px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 25.92px;
 }
 
 .quick-pay-links {
@@ -531,9 +515,10 @@ h2 {
     margin-top: 33px;
     list-style: none;
     padding: 0;
-    li {
-        margin-top: 15px;
-    }
+}
+
+.footer-col ul li {
+    margin-top: 15px;
 }
 
 .footer-logo {
@@ -544,12 +529,13 @@ h2 {
     margin-top: 26px;
     display: flex;
     gap: 188px;
-    p {
-        width: 836px;
-        color: #AAA;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 15.6px;
-    }
+}
+
+.footer_bottom p {
+    width: 836px;
+    color: #AAA;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 15.6px;
 }
