@@ -70,7 +70,6 @@ img {
     font-style: normal;
     font-weight: 400;
 }
-
 .main-nav a {
     color: #222;
     font-size: 16px;
@@ -79,19 +78,9 @@ img {
     text-decoration: none;
 }
 
-.main-nav li {
+.main-nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
-}
-
-.logo-nav {
-    display: flex;
-    gap: 10px;
-}
-.nav-left-link {
-    display: flex;
-    gap: 22px;
 }
 
 .nav-left {
@@ -99,6 +88,19 @@ img {
     align-items: center;
     gap: 40px;
 }
+
+.nav-left-link {
+    display: flex;
+    gap: 22px;
+}
+
+.logo-nav {
+    display: flex;
+    gap: 10px;
+
+}
+
+
 .nav-right {
     display: flex;
     align-items: center;
@@ -146,6 +148,14 @@ h2 {
     line-height: 50.4px;
 }
 
+h3 {
+    color: #222;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+    margin-bottom: 10px;
+}
+
 .promo-descr {
     margin-top: 23px;
     color: #222;
@@ -166,7 +176,7 @@ h2 {
     top: -153px;
     right: 0;
     object-fit: cover;
-    max-width: 585px;
+    max-width: 100%;
 }
 
 .warranty {
@@ -192,21 +202,14 @@ h2 {
     flex: 1 1 50%;
     max-width: 480px;
     padding-top: 100px;
-    h3 {
-        color: #222;
-        font-size: 36px;
-        font-weight: 400;
-        line-height: 43.2px;
-        margin-bottom: 10px;
-    }
+}
 
-    p {
-        margin-top: 12px;
-        color: #222;
-        font-size: 18px;
-        font-style: normal;
-        line-height: 25.92px;
-    }
+.warranty-text p {
+    margin-top: 12px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 25.92px;
 }
 
 .care {
@@ -233,13 +236,6 @@ h2 {
     max-width: 480px;
     padding-top: 100px;
 
-    h3 {
-        color: #222;
-        font-size: 36px;
-        font-weight: 400;
-        line-height: 43.2px;
-        margin-bottom: 10px;
-    }
 
     p {
         margin-top: 12px;
@@ -253,12 +249,6 @@ h2 {
 .cashback {
     padding-top: 164px;
     text-align: center;
-    h3 {
-        color: #222;
-        font-size: 36px;
-        font-weight: 400;
-        line-height: 43.2px;
-    }
 
     p {
         margin: 5px auto;
@@ -298,10 +288,11 @@ h2 {
     row-gap: 60px;
     justify-items: center;
     align-items: center;
-    img {
-        max-width: 100%;
-        height: auto;
-    }
+}
+
+.grid-partners img {
+    max-width: 100%;
+    height: auto;
 }
 
 .shopping-mastercard {
@@ -327,13 +318,6 @@ h2 {
     flex: 1 1 50%;
     max-width: 475px;
     padding-top: 100px;
-
-    h3 {
-        color: #222;
-        font-size: 36px;
-        font-weight: 400;
-        line-height: 43.2px;
-    }
 
     p {
         margin-top: 22px;
@@ -374,14 +358,6 @@ h2 {
     max-width: 480px;
     padding-top: 100px;
 
-    h3 {
-        color: #222;
-        font-size: 36px;
-        font-weight: 400;
-        line-height: 43.2px;
-        margin-bottom: 10px;
-    }
-
     p {
         margin-top: 12px;
         color: #222;
@@ -416,13 +392,6 @@ h2 {
     padding-top: 100px;
 }
 
-.account-many-text h3 {
-    color: #222;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 43.2px;
-    margin-bottom: 4px;
-}
 
 .account-many-text p {
     margin-top: 15px;
@@ -459,13 +428,6 @@ h2 {
     padding-top: 80px;
 }
 
-.quick-text h3 {
-    color: #222;
-    font-size: 36px;
-    font-weight: 400;
-    line-height: 43.2px;
-    margin-bottom: 10px;
-}
 
 .quick-text p {
     margin-top: 12px;
