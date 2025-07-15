@@ -998,3 +998,175 @@
         font-size: 14px;
     }
 }
+
+
+@media screen and (max-width: 520px) {
+    .container {
+            width: 100%;
+            padding: 0  15px;
+    }
+
+    h1 {
+        font-size: 20px
+        
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    .main-nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .burger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .burger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .mobile-menu.active {
+        display: block;
+    }
+
+
+    .promo {
+        padding-top: 50px;  
+        /* text-align: center;  */
+    }
+
+    .promo-img {
+        /* display: none; */
+        top: 73px;
+        max-width: 100px;
+        height: auto;
+    }
+
+    .promo-descr {
+        margin-top: 19px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .download-links {
+        /* display: flex; */
+        flex-direction: row;
+    }
+
+    .download-links img {
+        max-width: 120px;
+    }
+
+    .warranty-img {
+        max-width: 75px;  
+    }
+
+    .warranty-text {
+        max-width: 300px;
+        padding-top: 10px;
+    }
+
+    .warranty-text p {
+        font-size: 14px;
+    }
+
+    .care-img {
+        max-width: 73px;
+    }
+
+    .care-text {
+        max-width: 330px;
+        padding-top: 30px;
+    }
+
+    .care-text p {
+        font-size: 14px;
+    }
+
+    .cashback p {
+        margin: 5px auto;
+        max-width: 250px;
+        color: #222;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25.92px; 
+    }
+
+    .grid-partners {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(9, 1fr);
+        row-gap: 20px; 
+    }
+
+    .shopping-mastercard .container {
+        gap: 68px;
+    }   
+
+
+    .shopping-mastercard-img {
+        max-width: 75px;
+    }
+
+    .shopping-mastercard-text {
+        max-width: 320px;
+        padding-top: 60px;
+    }
+
+    .shopping-mastercard-text p {
+        font-size: 14px;
+    }
+
+    .fees-img {
+        max-width: 75px;
+    }
+
+    .fees-text {
+        max-width: 290px;
+        padding-top: 10px;
+    }
+
+    .fees-text p {
+        font-size: 14px;
+    }
+
+    .account-many-img {
+        max-width: 75px;
+    }
+
+    .account-many-text {
+        max-width: 265px;
+        padding-top: 10px;   
+    }
+
+    .account-many-text p {
+        font-size: 14px;
+    }
+
+    .quick-img {
+        max-width: 75px;
+    }
+
+    .quick-text {
+        max-width: 265px;
+        padding-top: 10px;   
+    }
+
+    .quick-text p {
+        font-size: 14px;
+    }
+}
