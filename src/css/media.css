@@ -1023,25 +1023,6 @@
         display: none;
     }
 
-    .burger {
-        display: block;
-    }
-
-    .burger.active .bar:nth-child(2) {
-        opacity: 0;
-    }
-
-    .burger.active .bar:nth-child(1) {
-        transform: translateY(8px) rotate(45deg);
-    }
-    .burger.active .bar:nth-child(3) {
-        transform: translateY(-8px) rotate(-45deg);
-    }
-
-    .mobile-menu.active {
-        display: block;
-    }
-
 
     .promo {
         padding-top: 50px;  
