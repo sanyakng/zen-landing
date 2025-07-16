@@ -727,6 +727,12 @@
     }
 }
 
+@media screen and (max-width: 478px) {
+    .pci__footer__logo {
+        display: none;
+    }
+}
+
 
 @media screen and (max-width: 375px) {
     .container {
