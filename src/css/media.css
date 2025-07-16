@@ -305,885 +305,198 @@
 
 
 @media screen and (max-width: 768px) {
-    .container {
-            margin: 0 auto;
-            max-width: 100%;
-            /* padding: 0 var(--container-padding-inline); */
-            position: relative; 
-            padding: 15px;  
-    }
 
-    .btn-outline {
-        display: none;
-    }
-
-    .footer_bottom img {
-        display: none;
-    }
-
-    h1 {
-        font-size: 24px
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    h3 {
-        font-size: 19px;
-    }
-
-    .promo {
-        padding-top: 90px;   
-    }
-
-    .promo-img {
-        top: -43px;
-        max-width: 350px;
-        right: 15px;
-        height: auto;
-    }
-
-    .promo-descr {
-        margin-top: 19px;
-        font-size: 14px;
-        font-weight: 400;
-    }
-
-    .download-links img {
-        max-width: 120px;
-    }
-
-    .warranty-img {
-        max-width: 310px;  
-    }
-
-    .warranty-text {
-        max-width: 390px;
-        padding-top: 10px;
-    }
-
-    .warranty-text p {
-        font-size: 14px;
-    }
-
-    .care-img {
-        max-width: 310px;
-    }
-
-    .care-text {
-        max-width: 355px;
-        padding-top: 30px;
-    }
-
-    .care-text p {
-        font-size: 14px;
-    }
-
-
-    .grid-partners {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        row-gap: 40px; 
-    }
-
-
-    .shopping-mastercard-img {
-        max-width: 310px;
-    }
-
-    .shopping-mastercard-text {
-        max-width: 320px;
-        padding-top: 60px;
-    }
-
-    .shopping-mastercard-text p {
-        font-size: 14px;
-    }
-
-    .fees-img {
-        max-width: 310px;
-    }
-
-    .fees-text {
-        max-width: 355px;
-        padding-top: 10px;
-    }
-
-    .fees-text p {
-        font-size: 14px;
-    }
-
-    .account-many-img {
-        max-width: 310px;
-    }
-
-    .account-many-text {
-        max-width: 380px;
-        padding-top: 10px;   
-    }
-
-    .account-many-text p {
-        font-size: 14px;
-    }
-
-    .quick-img {
-        max-width: 310px;
-    }
-
-    .quick-text {
-        max-width: 355px;
-        padding-top: 10px;   
-    }
-
-    .quick-text p {
-        font-size: 14px;
-    }
-}
-
-
-@media screen and (max-width: 678px) {
-    .container {
-            width: 100%;
-            padding: 0  15px;
-    }
-
-    h1 {
-        font-size: 24px
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    h3 {
-        font-size: 19px;
-    }
-
-    .promo {
-        padding-top: 90px;   
-    }
-
-    .promo-img {
-        top: -13px;
-        max-width: 300px;
-        height: auto;
-    }
-
-    .promo-descr {
-        margin-top: 19px;
-        font-size: 14px;
-        font-weight: 400;
-    }
-
-    .download-links img {
-        max-width: 120px;
-    }
-
-    .warranty-img {
-        max-width: 275px;  
-    }
-
-    .warranty-text {
-        max-width: 300px;
-        padding-top: 10px;
-    }
-
-    .warranty-text p {
-        font-size: 14px;
-    }
-
-    .care-img {
-        max-width: 260px;
-    }
-
-    .care-text {
-        max-width: 330px;
-        padding-top: 30px;
-    }
-
-    .care-text p {
-        font-size: 14px;
-    }
-
-    .cashback p {
-        margin: 5px auto;
-        max-width: 550px;
-        color: #222;
-        text-align: center;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25.92px; 
-    }
-
-    .grid-partners {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        row-gap: 40px; 
-    }
-
-    .shopping-mastercard .container {
-        gap: 68px;
-    }   
-
-
-    .shopping-mastercard-img {
-        max-width: 255px;
-    }
-
-    .shopping-mastercard-text {
-        max-width: 320px;
-        padding-top: 60px;
-    }
-
-    .shopping-mastercard-text p {
-        font-size: 14px;
-    }
-
-    .fees-img {
-        max-width: 310px;
-    }
-
-    .fees-text {
-        max-width: 290px;
-        padding-top: 10px;
-    }
-
-    .fees-text p {
-        font-size: 14px;
-    }
-
-    .account-many-img {
-        max-width: 310px;
-    }
-
-    .account-many-text {
-        max-width: 265px;
-        padding-top: 10px;   
-    }
-
-    .account-many-text p {
-        font-size: 14px;
-    }
-
-    .quick-img {
-        max-width: 310px;
-    }
-
-    .quick-text {
-        max-width: 265px;
-        padding-top: 10px;   
-    }
-
-    .quick-text p {
-        font-size: 14px;
-    }
-}
-@media screen and (max-width: 630px) {
-    .container {
-            width: 100%;
-            padding: 0  15px;
-    }
-
-    h1 {
-        font-size: 24px
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    h3 {
-        font-size: 19px;
-    }
-
-    .promo {
-        padding-top: 90px;   
-    }
-
-    .promo-img {
-        top: -13px;
-        max-width: 250px;
-        height: auto;
-    }
-
-    .promo-descr {
-        margin-top: 19px;
-        font-size: 14px;
-        font-weight: 400;
-    }
-
-    .download-links img {
-        max-width: 120px;
-    }
-
-    .warranty-img {
-        max-width: 275px;  
-    }
-
-    .warranty-text {
-        max-width: 300px;
-        padding-top: 10px;
-    }
-
-    .warranty-text p {
-        font-size: 14px;
-    }
-
-    .care-img {
-        max-width: 260px;
-    }
-
-    .care-text {
-        max-width: 330px;
-        padding-top: 30px;
-    }
-
-    .care-text p {
-        font-size: 14px;
-    }
-
-    .cashback p {
-        margin: 5px auto;
-        max-width: 550px;
-        color: #222;
-        text-align: center;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25.92px; 
-    }
-
-    .grid-partners {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        row-gap: 40px; 
-    }
-
-    .shopping-mastercard .container {
-        gap: 68px;
-    }   
-
-
-    .shopping-mastercard-img {
-        max-width: 255px;
-    }
-
-    .shopping-mastercard-text {
-        max-width: 320px;
-        padding-top: 60px;
-    }
-
-    .shopping-mastercard-text p {
-        font-size: 14px;
-    }
-
-    .fees-img {
-        max-width: 310px;
-    }
-
-    .fees-text {
-        max-width: 290px;
-        padding-top: 10px;
-    }
-
-    .fees-text p {
-        font-size: 14px;
-    }
-
-    .account-many-img {
-        max-width: 310px;
-    }
-
-    .account-many-text {
-        max-width: 265px;
-        padding-top: 10px;   
-    }
-
-    .account-many-text p {
-        font-size: 14px;
-    }
-
-    .quick-img {
-        max-width: 310px;
-    }
-
-    .quick-text {
-        max-width: 265px;
-        padding-top: 10px;   
-    }
-
-    .quick-text p {
-        font-size: 14px;
-    }
-}
-
-
-@media screen and (max-width: 580px) {
-    .container {
-            width: 100%;
-            padding: 0  15px;
-    }
-
-    h1 {
-        font-size: 24px
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    h3 {
-        font-size: 19px;
-    }
-
-    .promo {
-        padding-top: 90px;   
-    }
-
-    .promo-img {
-        top: -13px;
-        max-width: 230px;
-        height: auto;
-    }
-
-    .promo-descr {
-        margin-top: 19px;
-        font-size: 14px;
-        font-weight: 400;
-    }
-
-    .download-links img {
-        max-width: 120px;
-    }
-
-    .warranty-img {
-        max-width: 275px;  
-    }
-
-    .warranty-text {
-        max-width: 300px;
-        padding-top: 10px;
-    }
-
-    .warranty-text p {
-        font-size: 14px;
-    }
-
-    .care-img {
-        max-width: 260px;
-    }
-
-    .care-text {
-        max-width: 330px;
-        padding-top: 30px;
-    }
-
-    .care-text p {
-        font-size: 14px;
-    }
-
-    .cashback p {
-        margin: 5px auto;
-        max-width: 450px;
-        color: #222;
-        text-align: center;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25.92px; 
-    }
-
-    .grid-partners {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        row-gap: 40px; 
-    }
-
-    .shopping-mastercard .container {
-        gap: 68px;
-    }   
-
-
-    .shopping-mastercard-img {
-        max-width: 255px;
-    }
-
-    .shopping-mastercard-text {
-        max-width: 320px;
-        padding-top: 60px;
-    }
-
-    .shopping-mastercard-text p {
-        font-size: 14px;
-    }
-
-    .fees-img {
-        max-width: 310px;
-    }
-
-    .fees-text {
-        max-width: 290px;
-        padding-top: 10px;
-    }
-
-    .fees-text p {
-        font-size: 14px;
-    }
-
-    .account-many-img {
-        max-width: 310px;
-    }
-
-    .account-many-text {
-        max-width: 265px;
-        padding-top: 10px;   
-    }
-
-    .account-many-text p {
-        font-size: 14px;
-    }
-
-    .quick-img {
-        max-width: 310px;
-    }
-
-    .quick-text {
-        max-width: 265px;
-        padding-top: 10px;   
-    }
-
-    .quick-text p {
-        font-size: 14px;
-    }
-}
-
-
-@media screen and (max-width: 580px) {
-    .container {
-            width: 100%;
-            padding: 0  15px;
-    }
-
-    h1 {
-        font-size: 24px
-    }
-
-    h2 {
-        font-size: 24px;
-    }
-
-    h3 {
-        font-size: 19px;
-    }
-
-    .promo {
-        padding-top: 90px;   
-    }
-
-    .promo-img {
-        top: -13px;
-        max-width: 200px;
-        height: auto;
-    }
-
-    .promo-descr {
-        margin-top: 19px;
-        font-size: 14px;
-        font-weight: 400;
-    }
-
-    .download-links img {
-        max-width: 120px;
-    }
-
-    .warranty-img {
-        max-width: 275px;  
-    }
-
-    .warranty-text {
-        max-width: 300px;
-        padding-top: 10px;
-    }
-
-    .warranty-text p {
-        font-size: 14px;
-    }
-
-    .care-img {
-        max-width: 260px;
-    }
-
-    .care-text {
-        max-width: 330px;
-        padding-top: 30px;
-    }
-
-    .care-text p {
-        font-size: 14px;
-    }
-
-    .cashback p {
-        margin: 5px auto;
-        max-width: 450px;
-        color: #222;
-        text-align: center;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25.92px; 
-    }
-
-    .grid-partners {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(4, 1fr);
-        row-gap: 40px; 
-    }
-
-    .shopping-mastercard .container {
-        gap: 68px;
-    }   
-
-
-    .shopping-mastercard-img {
-        max-width: 255px;
-    }
-
-    .shopping-mastercard-text {
-        max-width: 320px;
-        padding-top: 60px;
-    }
-
-    .shopping-mastercard-text p {
-        font-size: 14px;
-    }
-
-    .fees-img {
-        max-width: 310px;
-    }
-
-    .fees-text {
-        max-width: 290px;
-        padding-top: 10px;
-    }
-
-    .fees-text p {
-        font-size: 14px;
-    }
-
-    .account-many-img {
-        max-width: 310px;
-    }
-
-    .account-many-text {
-        max-width: 265px;
-        padding-top: 10px;   
-    }
-
-    .account-many-text p {
-        font-size: 14px;
-    }
-
-    .quick-img {
-        max-width: 310px;
-    }
-
-    .quick-text {
-        max-width: 265px;
-        padding-top: 10px;   
-    }
-
-    .quick-text p {
-        font-size: 14px;
-    }
-}
-
-
-@media screen and (max-width: 520px) {
-    .container {
-            width: 100%;
-            padding: 0  15px;
-    }
-
-    h1 {
-        font-size: 20px
-        
-    }
-
-    h2 {
-        font-size: 20px;
-    }
-
-    h3 {
-        font-size: 19px;
-    }
-
-    .main-nav {
-        display: none;
-    }
-
-
-    .promo {
-        padding-top: 50px;  
-        /* text-align: center;  */
-    }
-
-    .promo-img {
-        /* display: none; */
-        top: 73px;
-        max-width: 100px;
-        height: auto;
-    }
-
-    .promo-descr {
-        margin-top: 19px;
-        font-size: 14px;
-        font-weight: 400;
-    }
-
-    .download-links {
-        /* display: flex; */
-        flex-direction: row;
-    }
-
-    .download-links img {
-        max-width: 120px;
-    }
-
-    .warranty-img {
-        max-width: 75px;  
-    }
-
-    .warranty-text {
-        max-width: 300px;
-        padding-top: 10px;
-    }
-
-    .warranty-text p {
-        font-size: 14px;
-    }
-
-    .care-img {
-        max-width: 73px;
-    }
-
-    .care-text {
-        max-width: 330px;
-        padding-top: 30px;
-    }
-
-    .care-text p {
-        font-size: 14px;
-    }
-
-    .cashback p {
-        margin: 5px auto;
-        max-width: 250px;
-        color: #222;
-        text-align: center;
-        font-size: 18px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 25.92px; 
-    }
-
-    .grid-partners {
-        grid-template-columns: repeat(1, 1fr);
-        grid-template-rows: repeat(9, 1fr);
-        row-gap: 20px; 
-    }
-
-    .shopping-mastercard .container {
-        gap: 68px;
-    }   
-
-
-    .shopping-mastercard-img {
-        max-width: 75px;
-    }
-
-    .shopping-mastercard-text {
-        max-width: 320px;
-        padding-top: 60px;
-    }
-
-    .shopping-mastercard-text p {
-        font-size: 14px;
-    }
-
-    .fees-img {
-        max-width: 75px;
-    }
-
-    .fees-text {
-        max-width: 290px;
-        padding-top: 10px;
-    }
-
-    .fees-text p {
-        font-size: 14px;
-    }
-
-    .account-many-img {
-        max-width: 75px;
-    }
-
-    .account-many-text {
-        max-width: 265px;
-        padding-top: 10px;   
-    }
-
-    .account-many-text p {
-        font-size: 14px;
-    }
-
-    .quick-img {
-        max-width: 75px;
-    }
-
-    .quick-text {
-        max-width: 265px;
-        padding-top: 10px;   
-    }
-
-    .quick-text p {
-        font-size: 14px;
-    }
-}
-
-
-@media screen and (max-width: 320px) {
     .container {
         width: 100%;
         padding: 0  15px;
     }
 
     h1 {
-        font-size: 20px
-        
+        font-size: 34px
     }
 
     h2 {
-        font-size: 20px;
+        font-size: 34px;
     }
 
     h3 {
         font-size: 19px;
     }
 
+    .btn-outline {
+        display: none;
+    }
+
+    .promo {
+        padding-top: 90px;   
+    }
+
+    .promo-img {
+        top: -13px;
+        right: 15px;
+        max-width: 250px;
+        height: auto;
+        z-index: -1;
+    }
+
+    .promo-descr {
+        margin-top: 19px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .download-links img {
+        max-width: 120px;
+    }
+
+    .warranty-img {
+        max-width: 275px;  
+    }
+
+    .warranty-text {
+        max-width: 100%;
+        padding-top: 10px;
+    }
+
+    .warranty-text p {
+        font-size: 14px;
+    }
+
+    .care-img {
+        max-width: 260px;
+    }
+
+    .care-text {
+        max-width: 330px;
+        padding-top: 30px;
+    }
+
+    .care-text p {
+        font-size: 14px;
+    }
+
+    .cashback p {
+        margin: 5px auto;
+        max-width: 450px;
+        color: #222;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25.92px; 
+    }
+
+    .grid-partners {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        row-gap: 40px; 
+    }
+
+    .shopping-mastercard .container {
+        gap: 68px;
+    }   
+
+
+    .shopping-mastercard-img {
+        max-width: 255px;
+    }
+
+    .shopping-mastercard-text {
+        max-width: 320px;
+        padding-top: 60px;
+    }
+
+    .shopping-mastercard-text p {
+        font-size: 14px;
+    }
+
+    .fees-img {
+        max-width: 310px;
+    }
+
+    .fees-text {
+        max-width: 290px;
+        padding-top: 10px;
+    }
+
+    .fees-text p {
+        font-size: 14px;
+    }
+
+    .account-many-img {
+        max-width: 310px;
+    }
+
+    .account-many-text {
+        max-width: 265px;
+        padding-top: 10px;   
+    }
+
+    .account-many-text p {
+        font-size: 14px;
+    }
+
+    .quick-img {
+        max-width: 310px;
+    }
+
+    .quick-text {
+        max-width: 265px;
+        padding-top: 10px;   
+    }
+
+    .quick-text p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 700px) and (max-width: 768px) {
+    .btn-outline {
+        display: block;
+    }
+
+    .promo-img {
+        max-width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    h1 {
+        margin-top: 15px;
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
     .main-nav {
+        display: flex;
+    }
+
+    .nav-right,
+    .nav-left-link {
         display: none;
     }
 
 
     .promo {
-        padding-top: 50px;  
+        padding-top: 50px;
         /* text-align: center;  */
     }
 
     .promo-img {
-        /* display: none; */
+        display: none;
         top: 73px;
         max-width: 100px;
         height: auto;
@@ -1209,8 +522,276 @@
     }
 
     .warranty .container {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
 
+    .warranty-img {
+        max-width: 100px;
+        float: left;
+        margin: 0 10px 0 0;
+    }
+
+    .warranty-text {
+        max-width: 100%;
+    }
+
+    .warranty-text p {
+        font-size: 16px;
+    }
+
+    .care {
+        padding-top: 80px;
+    }
+
+    .care .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+
+    .care-img {
+        max-width: 100px;
+        order: 1;
+        /* display: none; */
+    }
+
+    .care .care-text {
+        order: 2;
+        max-width: 100%;
+        padding-top: 0;
+        text-align: center;
+    }
+
+    .care-text p {
+        font-size: 16px;
+    }
+
+    .cashback {
+        padding-top: 80px;
+    }
+
+    .cashback p {
+        margin: 5px auto;
+        max-width: 100%;
+        color: #222;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 25.92px;
+    }
+
+    .grid-partners {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(8, 1fr);
+        row-gap: 20px;
+    }
+
+    .shopping-mastercard {
+        padding-top: 80px;
+    }
+
+    .shopping-mastercard .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+
+
+    .shopping-mastercard-img {
+        order: 1;
+        max-width: 100px;
+        /* display: none; */
+    }
+
+    .shopping-mastercard-text {
+        max-width: 100%;
+        padding-top: 0;
+        text-align: center;
+        order: 2;
+    }
+
+    .shopping-mastercard-text p {
+        font-size: 16px;
+    }
+
+    .pay-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 28px;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .pay-links img {
+        max-width: 70px;
+        height: auto;
+    }
+
+    .fees {
+        padding-top: 80px;
+    }
+
+    .fees .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+
+    .fees-img {
+        max-width: 100px;
+        /* float: left; */
+        /* margin: 0 10px 0 0; */
+    }
+
+    .fees-text {
+        max-width: 100%;
+        padding-top: 10px;
+    }
+
+    .fees-text p {
+        font-size: 16px;
+    }
+
+    .account-many .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+
+    .account-many-img {
+        order: 1;
+        max-width: 100px;
+        /* display: none; */
+    }
+
+    .account-many-text {
+        order: 2;
+        max-width: 100%;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .account-many-text p {
+        font-size: 16px;
+    }
+
+    .quick {
+        padding-top: 80px;
+    }
+
+    .quick .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+    }
+
+    .quick-img {
+        max-width: 100px;
+        /* float: left; */
+        /* margin: 0 10px 0 0; */
+    }
+
+    .quick-text {
+        max-width: 100%;
+        padding-top: 10px;
+    }
+
+    .quick-text p {
+        font-size: 16px;
+    }
+
+    .quick-pay-links {
+        display: flex;
+        justify-content: center;
+    }
+
+    .quick-pay-links img {
+        max-width: 130px;
+    }
+
+    .grid-footer {
+        display: grid;
+        margin-top: 47px;
+        grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+        text-align: left;
+        gap: 40px;
+    }
+}
+
+
+@media screen and (max-width: 375px) {
+    .container {
+        width: 100%;
+        padding: 0  15px;
+    }
+
+    .main-nav {
+        display: flex;
+    }
+
+    .nav-right, .nav-left-link {
+        display: none;
+    }
+
+
+    .promo {
+        padding-top: 50px;  
+        /* text-align: center;  */
+    }
+
+    h1 {
+        margin-top: 15px;
+        font-size: 36px;
+    }
+
+    h2 {
+        font-size: 36px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    .promo-img {
+        display: none;
+        top: 73px;
+        max-width: 100px;
+        height: auto;
+    }
+
+    .promo-descr {
+        margin-top: 19px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .download-links {
+        /* display: flex; */
+        flex-direction: row;
+    }
+
+    .download-links img {
+        max-width: 120px;
+    }
+
+    .warranty {
+        padding-top: 80px;
+    }
+
+    .warranty .container {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
     }
 
     .warranty-img {
@@ -1232,18 +813,23 @@
     }
 
     .care .container {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
     }
 
     .care-img {
-        /* max-width: 73px;
-        float:right; */
-        display: none;
+        max-width: 73px;
+        order: 1;
+        /* display: none; */
     }
 
     .care .care-text {
+        order: 2;
         max-width: 330px;
         padding-top: 0;
+        text-align: center;
     }
 
     .care-text p {
@@ -1276,23 +862,41 @@
     }
 
     .shopping-mastercard .container {
-        gap: 68px;
-        display: block;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
     }   
 
 
     .shopping-mastercard-img {
-        /* max-width: 75px; */
-        display: none;
+        order: 1;
+        max-width: 75px;
+        /* display: none; */
     }
 
     .shopping-mastercard-text {
         max-width: 320px;
         padding-top: 0;
+        text-align: center;
+        order: 2;
     }
 
     .shopping-mastercard-text p {
         font-size: 14px;
+    }
+
+    .pay-links {
+        display: flex;
+        justify-content: center;
+        margin-top: 28px;
+        width: 100%;
+        gap: 20px;
+    }   
+
+    .pay-links img {
+        max-width: 70px;
+        height: auto;
     }
 
     .fees {
@@ -1300,13 +904,16 @@
     }
 
     .fees .container {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
     }
 
     .fees-img {
         max-width: 75px;
-        float: left;
-        margin: 0 10px 0 0;
+        /* float: left; */
+        /* margin: 0 10px 0 0; */
     }
 
     .fees-text {
@@ -1319,17 +926,23 @@
     }
 
     .account-many .container {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
     }
 
     .account-many-img {
-        /* max-width: 75px; */
-        display: none;
+        order: 1;
+        max-width: 75px;
+        /* display: none; */
     }
 
     .account-many-text {
+        order: 2;
         max-width: 265px;
-        padding-top: 10px;   
+        padding-top: 10px;
+        text-align: center;   
     }
 
     .account-many-text p {
@@ -1341,7 +954,10 @@
     }
 
     .quick .container {
-        display: block;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
     }
 
     .quick-img {
@@ -1357,5 +973,13 @@
 
     .quick-text p {
         font-size: 14px;
+    }
+
+    .grid-footer {
+    display: grid;
+    margin-top: 47px;
+    grid-template-columns: repeat(auto-fit, minmax(90px, 1fr));
+    text-align: left;
+    gap: 40px;
     }
 }

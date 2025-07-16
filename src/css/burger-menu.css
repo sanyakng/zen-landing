@@ -1,6 +1,7 @@
 .burger {
     display: none;
     cursor: pointer;
+    align-items: center;
 }
 
 /* .burger-flex {
@@ -27,12 +28,13 @@
 }
 
 .mobile-menu ul {
-    width: 300px;
+    /* width: 100px; */
     list-style: none;
 }
 
 .mobile-menu ul li {
-    margin-top: 5px;
+    /* margin-top: 10px; */
+    line-height: 30px;
 }
 
 .mobile-menu ul a {
@@ -41,7 +43,7 @@
     text-align: center;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 578px) {
 
     .burger {
         display: flex;
@@ -63,19 +65,91 @@
     }
 
     .mobile-menu ul {
-        display: flex;
+        /* display: flex;
         flex-direction: column;
-        padding: 0;
+        padding: 0; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 20px;
+        padding-top: 10px;
 
         li {
             display: flex;
+            /* grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 1fr); */
             justify-content: center;
         }
     }
 
     .mobile-menu.active {
         display: block;
-        /* position: absolute; */
+        position: absolute;
+        right: 35px;
+        top: 60px;
+        background: #f3f2f2;
+        width: 300px;
+        border-radius: 30px;
+        z-index: 999;
+    }
 
+    .btn-outline {
+        display: block;
+        background-color: #f3f2f2;
+    }
+}
+
+@media screen and (max-width: 478px) {
+
+    .burger {
+        display: flex;
+        flex-direction: column;
+        justify-self: end;
+        align-items: flex-end;
+    }
+
+    .burger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .burger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .burger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .mobile-menu ul {
+        /* display: flex;
+        flex-direction: column;
+        padding: 0; */
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        gap: 10px;
+
+        li {
+            display: flex;
+            /* grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(1, 1fr); */
+            justify-content: center;
+        }
+    }
+
+    .mobile-menu.active {
+        display: block;
+        position: absolute;
+        right: 35px;
+        top: 60px;
+        background: #f3f2f2;
+        width: 200px;
+        border-radius: 30px;
+        z-index: 999;
+    }
+
+    .btn-outline {
+        display: block;
+        background-color: #f3f2f2;
     }
 }
