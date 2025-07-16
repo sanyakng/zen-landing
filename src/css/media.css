@@ -94,6 +94,7 @@
         height: auto;
     }
 
+
     .warranty .container {
         gap: 68px;
     }
@@ -325,7 +326,6 @@
 
     .btn-outline {
         display: none;
-        color: #222;
     }
 
     .promo {

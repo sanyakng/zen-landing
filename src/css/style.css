@@ -116,8 +116,10 @@ html {
     border: 1px solid #000;
     padding: 8px 18px;
     border-radius: 24px;
+    color: #222;
     font-weight: 400;
     background-color: #fff;
+    cursor: pointer;
 }
 
 .promo {
